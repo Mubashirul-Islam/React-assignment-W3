@@ -3,6 +3,7 @@ import Layout from "./components/layout.jsx";
 import HomePage from "./pages/home_page.jsx";
 import TasksList from "./pages/tasks_list.jsx";
 import TaskDetails from "./pages/task_details.jsx";
+import ErrorPage from "./pages/error_page.jsx";
 
 function App() {
   return (
@@ -15,6 +16,8 @@ function App() {
           <Route index element={<TasksList />} />
           <Route path=":taskId" element={<TaskDetails />} />
         </Route>
+
+        <Route path="*" element={<ErrorPage />} />
       </Route>
     </Routes>
   );

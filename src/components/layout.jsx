@@ -5,7 +5,7 @@ function Layout() {
     return (
         <main>
             <nav><Navbar /></nav>
-            <section>
+            <section className=" dark:bg-gray-900 dark:text-gray-100 transition">
                 <Outlet />
             </section>
         </main>
