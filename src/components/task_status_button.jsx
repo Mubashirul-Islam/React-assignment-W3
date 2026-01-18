@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-function TaskStatusButton({status}) {
+function TaskStatusButton({ status }) {
     const [isComplete, setIsComplete] = useState(status);
 
     const toggleComplete = () => {
