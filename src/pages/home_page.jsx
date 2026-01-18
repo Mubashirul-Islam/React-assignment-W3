@@ -5,7 +5,7 @@ function HomePage() {
         Welcome to <span className="text-blue-500">Task</span>
         <span className="text-orange-500">Manager</span>
       </h1>
-      <p>This is the main landing page of the application.</p>
+      <p>Manage your tasks efficiently and stay organized.</p>
     </div>
   );
 }
