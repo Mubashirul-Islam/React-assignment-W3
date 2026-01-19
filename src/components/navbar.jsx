@@ -5,7 +5,7 @@ function Navbar() {
   return (
     <nav>
       <ul className="flex flex-col sm:flex-row sm:justify-between sm:items-center gap-3 py-4 px-4 sm:px-10 bg-gray-200 dark:bg-gray-800 transition">
-        <li className="text-2xl text-center sm:text-left">
+        <li className="text-2xl text-center sm:text-left cursor-pointer">
           <Link to="/">
             <span className="text-blue-500 font-bold">Task</span>
             <span className="text-orange-500 font-bold">Manager</span>
