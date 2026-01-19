@@ -27,21 +27,22 @@ TaskManager is a simple, responsive task viewer built with React, Vite, and Tail
 
 ### Install
 
-1. Install dependencies:
+1. Clone the repository:
+    ```bash
+   git clone https://github.com/Mubashirul-Islam/React-assignment-W3.git
+   cd React-assignment-W3
+   ```
 
-   - `npm install`
+2. Install dependencies:
 
-2. Start the dev server:
-   - `npm run dev`
+   ```bash
+   npm install
+   ```
 
-### Build & Preview
-
-- Build: `npm run build`
-- Preview: `npm run preview`
-
-### Lint
-
-- `npm run lint`
+3. Start the dev server:
+   ``` bash
+   npm run dev
+   ```
 
 ## Routes
 
