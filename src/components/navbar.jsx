@@ -14,7 +14,7 @@ function Navbar() {
         <li className="flex justify-center sm:justify-end">
           <ul className="flex gap-3 sm:gap-4">
             <Link to="/tasks">
-              <button className="rounded-4xl  px-4 py-1 bg-orange-500 dark:bg-blue-500 text-white font-bold">
+              <button className="rounded-4xl  px-4 py-1 bg-orange-500 dark:bg-blue-500 text-white font-bold cursor-pointer">
                 Tasks
               </button>
             </Link>

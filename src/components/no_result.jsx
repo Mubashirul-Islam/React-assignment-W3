@@ -1,6 +1,6 @@
 import error_img from "/src/assets/crying-emoji-svgrepo-com.svg"; 
 
-function ErrorData() {
+function NoResult() {
   return (
     <div className="flex flex-col justify-center items-center min-h-screen px-4 text-center">
       <img
@@ -9,11 +9,14 @@ function ErrorData() {
         className="w-56 h-56 mb-4"
       />
       <h1 className="text-3xl sm:text-4xl font-bold mb-2 text-red-500">
-        Error Loading Data
+        No Results Found
       </h1>
-      <p>There was an error fetching the data. Please try again later.</p>
+      <p>
+        We couldn't find any tasks matching your search. Please try a different
+        query.
+      </p>
     </div>
   );
 }
 
-export default ErrorData;
+export default NoResult;
